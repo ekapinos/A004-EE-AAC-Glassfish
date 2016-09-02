@@ -5,8 +5,7 @@
     <artifactId>A004-EE-AAC-Glassfish</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>A004-EE-AAC-Glassfish-ejb</artifactId>
-  <packaging>ejb</packaging>
+  <artifactId>A004-EE-AAC-Glassfish-client</artifactId>
   <dependencies>
   	<dependency>
   		<groupId>local.kapinos</groupId>

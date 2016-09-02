@@ -5,13 +5,5 @@
     <artifactId>A004-EE-AAC-Glassfish</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>A004-EE-AAC-Glassfish-ejb</artifactId>
-  <packaging>ejb</packaging>
-  <dependencies>
-  	<dependency>
-  		<groupId>local.kapinos</groupId>
-  		<artifactId>A004-EE-AAC-Glassfish-common</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
+  <artifactId>A004-EE-AAC-Glassfish-common</artifactId>
 </project>

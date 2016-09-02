@@ -26,4 +26,10 @@ public class TestBean implements TestBeanRemote, TestBeanLocal {
 		logger.info("TestBean - preDestroy");
 	}
 
+	@Override
+	public String doSomething() {
+		logger.info("TestBean - doSomething");
+		return "TestBean - doSomething - result";
+	}
+
 }

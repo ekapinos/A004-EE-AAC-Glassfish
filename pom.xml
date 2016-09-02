@@ -70,5 +70,7 @@
 	<modules>
 		<module>ear</module>
 		<module>ejb</module>
+		<module>client</module>
+		<module>common</module>
 	</modules>
 </project>

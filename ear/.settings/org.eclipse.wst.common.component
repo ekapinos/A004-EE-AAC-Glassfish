@@ -5,5 +5,8 @@
         <dependent-module archiveName="A004-EE-AAC-Glassfish-ejb-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/A004-EE-AAC-Glassfish-ejb/A004-EE-AAC-Glassfish-ejb">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="A004-EE-AAC-Glassfish-common-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/resource/A004-EE-AAC-Glassfish-common/A004-EE-AAC-Glassfish-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
