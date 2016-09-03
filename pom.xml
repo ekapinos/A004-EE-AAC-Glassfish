@@ -5,9 +5,6 @@
 	<artifactId>A004-EE-AAC-Glassfish</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<url>https://glassfish.java.net/docs/4.0/application-development-guide.pdf</url>
-	<description>Chapter 10. Developing Java Clients</description>
-	<name>Introducing the Application Client Container</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -73,7 +70,8 @@
 						<archive>
 							<manifest>
 								<addClasspath>true</addClasspath>
-								<!--mainClass>local.kapinos.ClientMain</mainClass-->
+								<classpathPrefix>lib/</classpathPrefix>
+								<!--mainClass>local.kapinos.ClientMain</mainClass -->
 							</manifest>
 						</archive>
 					</configuration>
@@ -82,7 +80,7 @@
 		</pluginManagement>
 
 	</build>
-	
+
 	<modules>
 		<module>ear</module>
 		<module>ejb</module>

@@ -22,7 +22,7 @@
 				<artifactId>maven-acr-plugin</artifactId>
 				<configuration>
 					<archive>
-						<manifest>
+						<manifest>							
 							<mainClass>local.kapinos.ClientMain</mainClass>
 						</manifest>
 					</archive>
