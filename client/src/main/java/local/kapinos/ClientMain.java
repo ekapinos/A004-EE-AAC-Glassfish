@@ -1,10 +1,14 @@
 package local.kapinos;
 
+import javax.ejb.EJB;
+
 public class ClientMain {
 
+	@EJB
+	private static TestBeanRemote testBeanRemote;
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		System.out.println(testBeanRemote.doSomething());
 	}
 
 }

@@ -3,6 +3,7 @@
 	<name>A004-EE-AAC-Glassfish-ear</name>
 	<comment></comment>
 	<projects>
+		<project>A004-EE-AAC-Glassfish-app-client</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

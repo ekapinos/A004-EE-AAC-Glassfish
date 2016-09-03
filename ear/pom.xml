@@ -1,18 +1,25 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>local.kapinos</groupId>
-    <artifactId>A004-EE-AAC-Glassfish</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <artifactId>A004-EE-AAC-Glassfish-ear</artifactId>
-  <packaging>ear</packaging>
-  <dependencies>
-  	<dependency>
-  		<groupId>local.kapinos</groupId>
-  		<artifactId>A004-EE-AAC-Glassfish-ejb</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  		<type>ejb</type>
-  	</dependency>
-  </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>local.kapinos</groupId>
+		<artifactId>A004-EE-AAC-Glassfish</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>A004-EE-AAC-Glassfish-ear</artifactId>
+	<packaging>ear</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>local.kapinos</groupId>
+			<artifactId>A004-EE-AAC-Glassfish-ejb</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>local.kapinos</groupId>
+			<artifactId>A004-EE-AAC-Glassfish-app-client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>app-client</type>
+		</dependency>
+	</dependencies>
 </project>
